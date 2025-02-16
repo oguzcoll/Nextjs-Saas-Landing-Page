@@ -25,6 +25,15 @@ const config: Config = {
           lg: '80px',
         },
       },
+      keyframes: {
+        gradient: {
+          '0%': { backgroundPosition: '0% center' },
+          '100%': { backgroundPosition: '200% center' },
+        },
+      },
+      animation: {
+        gradient: 'gradient 6s linear infinite',
+      },
     },
   },
   plugins: [],
